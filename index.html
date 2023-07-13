@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pubali-Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f6024be196.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <div class="navbar">
+                <nav>
+                    <a href="#" class="logo">Pubali.</a>
+                    <ul id="sidemenu">
+                           <li><a href="#header" >Home</a></li> 
+                           <li><a href="#about" >About</a></li> 
+                           <li><a href="#Services" >My Interests</a></li> 
+                           <li><a href="#portfolio" >My Work</a></li> 
+                           <li><a href="#contact" >Contact</a></li> 
+                           <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I am <span>Pubali Dey</span> </h1>
+                <h3>A coding and web developing enthusiast.</h3>
+            </div>
+        </div>
+    </div>
+    <!---------about--------->
+    <div id="about">
+    <div class="container">
+        <h1 class="sub-title">About Me</h1>
+    <div class="row">
+        
+        <div class="about-col-1">
+            <img src="about_me_pic.jpeg">
+        </div>
+        <div class="about-col-2">
+            <div class="about-data">
+                <div>
+                    <p class="about-data-bio">Hi,my name is Pubali Dey.I am a final year B.Tech computer science engineering student at Meghnad Saha Institute of Technology, with a passion for web development and coding. As a web developer, I am skilled in creating dynamic and interactive websites. My enthusiasm for coding drives my dedication to continuously learn and improve my skills in the field.I have decent communication skill with adequate proficiency in English.Looking up for new challenges.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Java, C, Python  </li>
+                            <li><span>Web Development</span><br>Designing Web Interfaces using HTML,CSS,JS,MySQL</li>
+                            <li><span>Knowledge </span><br>DBMS, Computer Networks, Object Oriented Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Hackathon</span><br>Participated in SIH 2022 and won 1st Position </li>
+                            <li><span>Contests</span><br>FlipCart Grid 4.0 and 5.0 participated.<br>TechSurf 2023 Participated.</li>
+                            <li><span>Others coming soon</span><br></li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Secondary</span><br>93.4 %  </li>
+                            <li><span>Higher Secondary</span><br>91.3%</li>
+                            <li><span>B Tech </span><br>9.31 CGPA</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-----------Services-------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Interests</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>I recently embarked on my journey as a web developer, completing courses and gaining hands-on experience in front-end and back-end technologies. I have a solid understanding of HTML, CSS, and JavaScript, which allow me to bring designs to life and create responsive and accessible websites.</p>
+                    <a herf="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>UI/Design</h2>
+                    <p>As a continuous learner, I am always seeking opportunities to expand my knowledge and stay updated with the latest UI/UX trends and tools. I am proficient in industry-standard design software such as  Sketch, and Figma.</p>
+                    <a herf="#">Learn More</a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!--------------My work-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work11.jpg" >
+                <div class="layer">
+                    <h3>Megatronix Website  </h3>
+                    <p>This Website is the official website of the only technical club of Meghnad Saha Institute of Technology.</p>
+                    <a href="http://msitmegatronix.in/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work12.jpg" >
+                <div class="layer">
+                    <h3>Clone Website  </h3>
+                    <p>This Website is a clone of famous e-commerce Website.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+</div>
+<!--------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>pubali.dey45@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/dont_be_this_girl/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pubali-dey-6a8154234/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="PUBALI_DEY Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+             <form name="Contact Form">
+                <input  name="Name" type="text" placeholder="Your Name" required>
+                <input name="Email" type="email"  placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+             </form>
+             <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Pubali. All rights reserved.</p>
+    </div>
+</div>
+<script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");/* to display active color onclick*/
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right='0';
+        }
+        function closemenu()
+        {
+            sidemenu.style.right='-200px';
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx7gSoDQ1uT6XiZ7GREfGn2-qE2NYZ5oKH1npFMOVuMOGTZ_8x4sevYsjdpJKtbqCtfDw/exec'
+    const form = document.forms['Contact Form']
+  
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => 
+        {
+            msg.innerHTML="Message Sent Successfully!"
+            setTimeout(function()
+            {
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+</body>
+</html>
